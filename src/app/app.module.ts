@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 export function MSALInstanceFactore(): IPublicClientApplication {
   return new PublicClientApplication({
     auth: {
-      clientId: '2bc815ef-5d51-41fb-98da-6ec98cdebb30',
+      clientId: '{{CLIENT_ID}}',
       redirectUri: 'http://localhost:4200'
     }
   });
